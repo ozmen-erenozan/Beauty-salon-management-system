@@ -1,0 +1,43 @@
+﻿<div class="text-center">
+    <h1 class="display-4 mb-4">Hoş Geldiniz</h1>
+    <p class="lead text-muted">Kuaför Yönetim Sistemi Genel Bakış</p>
+
+    <div class="row mt-5">
+        <!-- Toplam Salon Sayısı -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+                <div class="card-body text-center bg-info text-white rounded">
+                    <h5 class="card-title fs-4">Toplam Salon Sayısı</h5>
+                    <p class="card-text display-6 fw-bold">@Model?.ToplamSalonSayisi</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toplam Çalışan Sayısı -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+                <div class="card-body text-center bg-success text-white rounded">
+                    <h5 class="card-title fs-4">Toplam Çalışan Sayısı</h5>
+                    <p class="card-text display-6 fw-bold">@Model?.ToplamCalisanSayisi</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toplam Randevu Sayısı -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+                <div class="card-body text-center bg-danger text-white rounded">
+                    <h5 class="card-title fs-4">Toplam Randevu Sayısı</h5>
+                    <p class="card-text display-6 fw-bold">@Model?.ToplamRandevuSayisi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ek Bilgi veya Hareket Butonları -->
+    <div class="mt-4">
+        <p class="text-muted">Kuaför ve berber salonlarınızı, çalışanlarınızı ve randevularınızı yönetmek için bu sistemden faydalanabilirsiniz.</p>
+        <a href="/Salonlar" class="btn btn-primary btn-lg me-2">Salonları Yönet</a>
+        <a href="/Randevular" class="btn btn-outline-secondary btn-lg">Randevuları Gör</a>
+    </div>
+</div>
