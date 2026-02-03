@@ -2,7 +2,7 @@
 
 This project is a comprehensive **Beauty Salon Management System** built with **ASP.NET Core 9.0 MVC**. It allows users to book appointments, manages salon services and employees, and includes an admin panel for business operations.
 
-## 🚀 Features
+##  Features
 
 *   **User Authentication & Authorization**: Secure login and registration using ASP.NET Core Identity.
 *   **Appointment Booking**: Users can browse services, select employees, and book appointments.
@@ -11,7 +11,7 @@ This project is a comprehensive **Beauty Salon Management System** built with **
 *   **AI Integration**: Includes an AI controller (`YapayZekaController`) for intelligent features (e.g., recommendations).
 *   **API Support**: RESTful API endpoints for integration with other platforms.
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 *   **Framework**: .NET 9.0 (ASP.NET Core MVC)
 *   **Database**: PostgreSQL / SQL Server (Entity Framework Core)
@@ -19,7 +19,7 @@ This project is a comprehensive **Beauty Salon Management System** built with **
 *   **Frontend**: Razor Views, HTML5, CSS3, JavaScript
 *   **Tools**: Swagger (API Documentation)
 
-## 📦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -48,14 +48,14 @@ This project is a comprehensive **Beauty Salon Management System** built with **
 
 5.  Open your browser and navigate to `https://localhost:7198` (or the port specified in the launch logs).
 
-## 📂 Project Structure
+##  Project Structure
 
 *   **Controllers/**: Handles incoming requests and application logic (e.g., `RandevuController`, `AdminController`).
 *   **Models/**: Database entities and ViewModels (e.g., `Randevu`, `Calisan`, `Salon`).
 *   **Views/**: UI pages using Razor syntax.
 *   **wwwroot/**: Static assets (CSS, JS, Images).
 
-## 🤝 Contributing
+##  Contributing
 
 1.  Fork the project
 2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
